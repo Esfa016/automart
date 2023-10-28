@@ -15,3 +15,17 @@ export class CreateVehicleDTO{
 
 }
 
+export class UpdateehicleDTO {
+  @Optional()
+  title: string | undefined;
+  @Optional()
+  description: string | undefined;
+  @Optional()
+  @Min(0)
+  price: number | undefined;
+
+  @Optional()
+  model: string | undefined;
+}
+
+
