@@ -11,6 +11,7 @@
   "author": "Sammy Abdulrahman Hassen",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.5.2",
     "@types/bcryptjs": "^2.4.5",
     "@types/jsonwebtoken": "^9.0.4",
     "bcrypt": "^5.1.1",
@@ -31,6 +32,7 @@
     "@types/express": "^4.17.20",
     "@types/express-fileupload": "^1.4.3",
     "@types/mongoose": "^5.11.97",
+    "prisma": "^5.5.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
   }
